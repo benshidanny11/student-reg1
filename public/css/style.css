@@ -133,16 +133,16 @@ footer
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height:75px;
   width: inherit;
-}
-#div_header
-{
   display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	justify-content: center;
-  align-items: center; 
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   background-color: #dbdbdb;
+  
 }
+
 .main-container
 {
   width: inherit;
@@ -237,4 +237,9 @@ footer{
   align-items: center;
   height: inherit;
   width: inherit;
+}
+#td-img
+{
+    align-items: center; 
+    padding-left: 20px;
 }
