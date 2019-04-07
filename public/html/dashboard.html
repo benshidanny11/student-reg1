@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>
+            Dashboard
+        </title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <bod>
+       <table width="100%">
+            <tr class="table-row-header" >
+               
+                <td  height="45px" id="td-img" >
+                        <img src="../assets/images/student.png" alt="Student logo" />
+                </td>
+                <td >
+                    <div class="header">
+                        Online student registration
+                    </div>                   
+                </td>
+                <td  width="100px"> 
+                    <div class="header">
+                    <a href="login.html">Logout</a>
+                    </div>
+                </td>
+                   
+            </tr>
+             <td height="500px" >
+                 <div class="nav-container">
+                    <div class="collapsible" horizontal layout id="collapsible1"> 
+                        
+                        <div >Students</div>
+                        <div class="div-img"><img src="../assets/images/img-expand.png" width="20px" height="20px" id="img1"/></div>
+                        
+                    </div>
+                 
+                    <div class="collapse-contents" id="stud-coll">
+                        <button class="nav-btns">View students</button>
+                        <button class="nav-btns">Add new student</button>
+                        <button class="nav-btns">Update student</button>
+                    </div>
+                    <div class="collapsible" horizontal layout id="collapsible2"> 
+                            <div >Users</div>
+                            <div class="div-img nav-user"><img src="../assets/images/img-expand.png" width="20px" height="20px" id="img2" /></div>
+                            
+                        </div>
+                       
+                        <div class="collapse-contents" id="user-coll">
+                            <button class="nav-btns">View users</button>
+                            <button class="nav-btns">Add new user</button>
+                            <button class="nav-btns">Update user</button>
+                        </div> 
+        
+                    </div> 
+                </td>
+                <td>
+                    <div class="actions-container">
+               
+                    
+                    <div class="descriptions">
+                            <ul class="slides">
+                                    <input type="radio" name="radio-btn" id="img-1" checked />
+                                    <li class="slide-container">
+                                        <div class="slide">
+                                            <img src="../assets/images/stud1.jpg" />
+                                        </div>
+                                        <div class="nav">
+                                            <label for="img-6" class="prev">&#x2039;</label>
+                                            <label for="img-2" class="next">&#x203a;</label>
+                                        </div>
+                                    </li>
+                                
+                                    <input type="radio" name="radio-btn" id="img-2" />
+                                    <li class="slide-container">
+                                        <div class="slide">
+                                          <img src="../assets/images/stud2.jpg" />
+                                        </div>
+                                        <div class="nav">
+                                            <label for="img-1" class="prev">&#x2039;</label>
+                                            <label for="img-3" class="next">&#x203a;</label>
+                                        </div>
+                                    </li>
+                                
+                                    <input type="radio" name="radio-btn" id="img-3" />
+                                    <li class="slide-container">
+                                        <div class="slide">
+                                          <img src="../assets/images/stud3.jpg" />
+                                        </div>
+                                        <div class="nav">
+                                            <label for="img-2" class="prev">&#x2039;</label>
+                                            <label for="img-4" class="next">&#x203a;</label>
+                                        </div>
+                                    </li>
+                                
+                                    <input type="radio" name="radio-btn" id="img-4" />
+                                    <li class="slide-container">
+                                        <div class="slide">
+                                          <img src="../assets/images/stud4.jpg" />
+                                        </div>
+                                        <div class="nav">
+                                            <label for="img-3" class="prev">&#x2039;</label>
+                                            <label for="img-5" class="next">&#x203a;</label>
+                                        </div>
+                                    </li>
+                                
+    
+                                    <li class="nav-dots">
+                                      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                                      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                                      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                                      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                                    </li>
+                                </ul>
+                    </div>
+                   <div class="student-reg">
+                <!--FOr signup-->    
+                <div class="main-container">
+                        <form action="post">
+                       <div id="signup-div" >
+                           <div class="head-signup">
+                               <img src="../assets/images/student.png" alt="User signup logo" height="70px" width="70px">
+                           </div>
+                           <div class="row-signup">
+                              <label class="required">Student names</label> <br/>
+                              <input type="text" name="firtName" class="texts" />
+                           </div>
+                           <div class="row-signup">
+                               <label class="required">Student adderss</label> <br/>
+                               <input type="text" name="lastName" class="texts" />
+                           </div>
+   
+                           <div class="row-signup">
+                               <label class="required">Student department</label> <br/>
+                               <input type="email" name="email" class="texts" />
+                           </div>
+                           <div class="row-signup">
+                               <label class="required">Student class</label> <br/>
+                               <input type="text" name="username" class="texts" />
+                            </div>
+                            <div class="row-signup">
+                               <label class="required">Student section</section></label> <br/>
+                               <select class="texts">
+                                   <option>Select section</option>
+                                   <option>Day section</option>
+                                   <option>Evening section</option>
+                               </select>
+                           </div>
+   
+   
+                           <div class="row-signup-action">
+                             <input type="reset" name="reset" class="buttons" id="btnRes" value="Clear">
+                             <input type="submit" name="btnSubmit" class="buttons" id="btnSub" value="Submit">   
+                           </div>
+                       </div> 
+                   </form>
+                    </div> 
+                   </div>
+                   <div class="all-students">
+
+                   </div> 
+                   <div class="update-student">
+
+                   </div>
+
+                   <div class="user-reg">
+
+                    </div>
+                    <div class="all-users">
+ 
+                    </div> 
+                    <div class="update-user">
+ 
+                    </div>  
+                </div>                 
+                   
+                </td>
+                <td>
+                    
+               </td>
+            </tr>
+            <tr class="table-row-footer">
+                    <td height="60px" colspan="3">
+                        <footer>Copy right allright reserved 2019</footer>
+                     </td>
+            </tr>
+       </table> 
+       <script type="text/javascript" src="../js/expand-animated.js"></script>
+    </body>
+</html>
